@@ -2,16 +2,18 @@
     box-sizing: border-box;
     position: absolute;
     width: 495px;
-    height: 751px;
-    left: 422px;
-    top: 150px;
-
+    height: 700px;
+    left: 100px;
+    top: 100px;
     background: #FCFCFE;
     border: 3px solid #000000;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
   }
 
+  * {
+    font-family: monospace;
+  }
 
   /* INCOME */
 .income {
@@ -23,192 +25,89 @@ top: 0px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
-font-size: 64px;
+font-size: 48px;
 line-height: 77px;
 color: #00BCD4;
 }
 
-/* Amount */
-.amount {
-position: absolute;
-width: 133px;
-height: 44px;
-left: 50px;
-top: 150px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
-color: #000000;
-}
-
-/* Category */
-.catetory {
-position: absolute;
-width: 158px;
-height: 44px;
-left: 50px;
-top: 236px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
-color: #000000;
-}
-
-/* Date */
-.date {
-position: absolute;
-width: 80px;
-height: 44px;
-left: 50px;
-top: 330px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
-color: #000000;
-}
-
-
-/* Account */
-
-.account {
-position: absolute;
-width: 142px;
-height: 44px;
-left: 50px;
-top: 420px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
-color: #000000;
-}
-
-/* Note */
-.note {
-position: absolute;
-width: 83px;
-height: 44px;
-left: 50px;
-top: 510px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
-color: #000000;
-}
-
-/* Money Amount*/
-.amount-money {
-position: absolute;
-width: 100px;
-height: 39px;
-left: 350px;
-top: 160px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 32px;
-line-height: 39px;
-/* identical to box height */
-color: #000000;
-}
-
-
-/* Category type*/
-.catetory-type {
-position: absolute;
-width: 93px;
-height: 39px;
-left: 350px;
-top: 250px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 32px;
-line-height: 39px;
-/* identical to box height */
-color: #000000;
-}
-
-/* YYYY-MM-DD */
-.date-details {
-position: absolute;
-width: 175px;
-height: 39px;
-left: 275px;
-top: 343px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 32px;
-line-height: 39px;
-/* identical to box height */
-color: #000000;
-}
-
-
-/* Account Type */
-.account-type {
-position: absolute;
-width: 144px;
-height: 39px;
-left: 310px;
-top: 432px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 32px;
-line-height: 39px;
-/* identical to box height */
-color: #000000;
-}
-
-
-/* Note Details */
-
-.note-details {
-position: absolute;
-width: 300px;
-height: 39px;
-left: 232px;
-top: 520px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 32px;
-line-height: 39px;
-/* identical to box height */
-color: #000000;
-}
-
 /* Switch income/expense icon */
 .switch-icon {
-position: absolute;
-width: 64px;
-height: 64px;
-left: 380px;
-top: 70px;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 320px;
+  top: 55px;
+  }
+
+
+.name-group {
+  position: absolute;
+  left: 50px;
+  top: 130px;
+  font-size: 28px;
 }
+
+.input-group {
+  position: absolute;
+  justify-content: space-between;
+  width: 100px;
+  height: 64px;
+  left: 260px;
+  top: 160px;
+}
+
+
+/* Input fields go here */
+
+/*Input your money*/
+.amount-money {
+  padding: 6px 6px;
+  margin: 1px 10px 30px 2px;
+}
+
+/*Select your category*/
+.category-select {
+  padding: 6px 6px;
+  margin: 0px 10px 30px 2px;
+}
+
+/*Select your date*/
+#transaction-date {
+  padding: 6px 6px;
+  margin: -5px 10px 30px 2px;
+}
+
+/*Select your account*/
+.account-select {
+  padding: 6px 6px;
+  margin: -5px 10px 30px 2px;
+}
+
+/*Input your note*/
+.note {
+  padding: 6px 6px;
+  margin: 5px 10px 30px 2px;
+}
+
+/*Submit button*/
+.submit-button {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background-color: #F5E9CF;
+}
+
+.submit-button:hover{
+  background-color: #7DB9B6;
+  color: white;
+}
+
+
+

@@ -17,15 +17,75 @@
   <div class="background-box">
       <div class="income"><p>INCOME</p></div>
       <img class="switch-icon" src="/assets/icon/swith-icon.svg">
-      <div class="amount"><p>Amount</p></div>
-      <div class="amount-money"><p>$4400</p></div>
-      <div class="catetory"><p>Category</p></div>
-      <div class="catetory-type"><p>Salary</p></div>
-      <div class="date"><p>Date</p></div>
-      <div class="account"><p>Account</p></div>
-      <div class="note"><p>Note</p></div>
-      <div class="date-details"><p>2023/04/10</p></div>
-      <div class="account-type"><p>Chequing</p></div>
-      <div class="note-details"><p>March's Salary</p></div>
-  </div>
+      <!--The conent can't input-->
+      <div class="name-group">
+        <p class="amount">Amount</p>
+        <p class="catetory">Category</p>
+        <p class="date">Date</p>
+        <p class="account">Account</p>
+        <p class="note">Note</p>
+      </div>
+
+
+          <!--The conent can input-->
+      <div class="input-group">
+        <!--Form to send data-->
+        <form action="/action_page.php" method="post" id="submit">
+        <!--This is the input money field-->
+        <input type="text" class="amount-money" placeholder="Input your money"></input>
+
+        <!--This is the category pulldown-->
+            <select class="category-select" name="category" id="expense-category">
+                <option value="" disabled selected>Select your category</option>
+                <option value="food">Food 🍗</option>
+                <option value="transport">Transport 🚌</option>
+                <option value="education">Education 📚</option>
+                <option value="property">Property 🏠</option>
+            </select>
+        <!--This is the calendar select date-->
+        <input type="date" id="transaction-date" placeholder="Select a date"></input>
+
+        <!--This is the account pulldown-->
+            <select class="account-select" name="account" id="account-type">
+                <option value="" disabled selected>Select your account</option>
+                <option value="account 1">CIBC</option>
+                <option value="account 2">TD Bank</option>
+                <option value="account 3">Wallet</option>
+                <option value="account 4">Cash</option>
+              </select>
+
+        <!--This is the note field-->
+        <textarea type="text" class="note" placeholder="Input your note"></textarea>
+
+        <!--Submit button-->
+
+        </form>
+      </div>
+      <button class="submit-button" type="submit">Submit</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
     
