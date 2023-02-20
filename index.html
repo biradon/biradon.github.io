@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>biradon</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="C:\resource\bootstrap-5.3.0-alpha1-dist\bootstrap-5.3.0-alpha1-dist\css\bootstrap.min.css">
+<script src="path/to/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <h1>
+        My PFM Web App
+    </h1>
+
+  <div class="background-box">
+      <div class="income"><p>INCOME</p></div>
+      <img class="switch-icon" src="/assets/icon/swith-icon.svg">
+      <!--The conent can't input-->
+      <div class="name-group">
+        <p class="amount">Amount</p>
+        <p class="catetory">Category</p>
+        <p class="date">Date</p>
+        <p class="account">Account</p>
+        <p class="note">Note</p>
+      </div>
+
+
+          <!--The conent can input-->
+      <div class="input-group">
+        <!--Form to send data-->
+        <form action="/action_page.php" method="post" id="submit">
+        <!--This is the input money field-->
+        <input type="text" class="amount-money" placeholder="Input your money"></input>
+
+        <!--This is the category pulldown-->
+            <select class="category-select" name="category" id="expense-category">
+                <option value="" disabled selected>Select your category</option>
+                <option value="food">Food 🍗</option>
+                <option value="transport">Transport 🚌</option>
+                <option value="education">Education 📚</option>
+                <option value="property">Property 🏠</option>
+            </select>
+        <!--This is the calendar select date-->
+        <input type="date" id="transaction-date" placeholder="Select a date"></input>
+
+        <!--This is the account pulldown-->
+            <select class="account-select" name="account" id="account-type">
+                <option value="" disabled selected>Select your account</option>
+                <option value="account 1">CIBC</option>
+                <option value="account 2">TD Bank</option>
+                <option value="account 3">Wallet</option>
+                <option value="account 4">Cash</option>
+              </select>
+
+        <!--This is the note field-->
+        <textarea type="text" class="note" placeholder="Input your note"></textarea>
+
+        <!--Submit button-->
+
+        </form>
+      </div>
+      <button class="submit-button" type="submit">Submit</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+    

@@ -1,0 +1,113 @@
+.background-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 495px;
+    height: 700px;
+    left: 100px;
+    top: 100px;
+    background: #FCFCFE;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+  }
+
+  * {
+    font-family: monospace;
+  }
+
+  /* INCOME */
+.income {
+position: absolute;
+width: 259px;
+height: 100px;
+left: 50px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 77px;
+color: #00BCD4;
+}
+
+/* Switch income/expense icon */
+.switch-icon {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 320px;
+  top: 55px;
+  }
+
+
+.name-group {
+  position: absolute;
+  left: 50px;
+  top: 130px;
+  font-size: 28px;
+}
+
+.input-group {
+  position: absolute;
+  justify-content: space-between;
+  width: 100px;
+  height: 64px;
+  left: 260px;
+  top: 160px;
+}
+
+
+/* Input fields go here */
+
+/*Input your money*/
+.amount-money {
+  padding: 6px 6px;
+  margin: 1px 10px 30px 2px;
+}
+
+/*Select your category*/
+.category-select {
+  padding: 6px 6px;
+  margin: 0px 10px 30px 2px;
+}
+
+/*Select your date*/
+#transaction-date {
+  padding: 6px 6px;
+  margin: -5px 10px 30px 2px;
+}
+
+/*Select your account*/
+.account-select {
+  padding: 6px 6px;
+  margin: -5px 10px 30px 2px;
+}
+
+/*Input your note*/
+.note {
+  padding: 6px 6px;
+  margin: 5px 10px 30px 2px;
+}
+
+/*Submit button*/
+.submit-button {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background-color: #F5E9CF;
+}
+
+.submit-button:hover{
+  background-color: #7DB9B6;
+  color: white;
+}
+
+
+
