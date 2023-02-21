@@ -15,6 +15,12 @@
     font-family: monospace;
   }
 
+  h1 {
+    position:absolute;
+    right: 1000px;
+    font-size: 32px;
+  }
+
   /* INCOME */
 .income {
 position: absolute;
@@ -63,6 +69,7 @@ color: #00BCD4;
 .amount-money {
   padding: 6px 6px;
   margin: 1px 10px 30px 2px;
+  width: 150px;
 }
 
 /*Select your category*/
@@ -72,7 +79,7 @@ color: #00BCD4;
 }
 
 /*Select your date*/
-#transaction-date {
+#date {
   padding: 6px 6px;
   margin: -5px 10px 30px 2px;
 }
@@ -110,4 +117,54 @@ color: #00BCD4;
 }
 
 
+/*Record Table*/
+
+.container-xl {
+  box-sizing: border-box;
+  position:absolute;
+  width: 1000px;
+  height: 700px;
+  right: 150px;
+  top: 100px;
+  background: #F7EFE5;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+
+#table{
+  border-collapse: collapse;
+}
+
+#table th {
+  border: 0.1px solid black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #F0A04B;
+  color: white;
+
+  width: 994px;
+  height: 50px;
+  padding: 2px;
+
+}
+
+#table td {
+  border: 0.1px solid black;
+  text-align: center;
+  font-size: 12px;
+  width: 994px;
+  height: 50px;
+  padding: 2px;
+
+}
+
+
+
+#header {
+  font-size: larger;
+}
 
