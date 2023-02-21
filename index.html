@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>biradon</title>
+	<title>My PFM Web App</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="C:\resource\bootstrap-5.3.0-alpha1-dist\bootstrap-5.3.0-alpha1-dist\css\bootstrap.min.css">
 <script src="path/to/bootstrap.min.js"></script>
@@ -26,46 +26,113 @@
         <p class="note">Note</p>
       </div>
 
-
           <!--The conent can input-->
       <div class="input-group">
         <!--Form to send data-->
-        <form action="/action_page.php" method="post" id="submit">
+        <form action="insert_record.php" method="post" id="submit">
         <!--This is the input money field-->
-        <input type="text" class="amount-money" placeholder="Input your money"></input>
+            <input id="money" type="number" class="amount-money" placeholder="Input your money" min="1" max="999999999"></input>
 
         <!--This is the category pulldown-->
-            <select class="category-select" name="category" id="expense-category">
+            <select class="category-select" name="category" id="category">
                 <option value="" disabled selected>Select your category</option>
-                <option value="food">Food 🍗</option>
-                <option value="transport">Transport 🚌</option>
-                <option value="education">Education 📚</option>
-                <option value="property">Property 🏠</option>
+                <option value="Food 🍗">Food 🍗</option>
+                <option value="Transport 🚌">Transport 🚌</option>
+                <option value="Education 📚">Education 📚</option>
+                <option value="Property 🏠">Property 🏠</option>
             </select>
         <!--This is the calendar select date-->
-        <input type="date" id="transaction-date" placeholder="Select a date"></input>
+        <input type="date" id="date" placeholder="Select a date"></input>
 
         <!--This is the account pulldown-->
-            <select class="account-select" name="account" id="account-type">
+            <select class="account-select" name="account" id="account">
                 <option value="" disabled selected>Select your account</option>
-                <option value="account 1">CIBC</option>
-                <option value="account 2">TD Bank</option>
-                <option value="account 3">Wallet</option>
-                <option value="account 4">Cash</option>
+                <option value="CIBC">CIBC</option>
+                <option value="TD Bank">TD Bank</option>
+                <option value="Wallet">Wallet</option>
+                <option value="Cash">Cash</option>
               </select>
 
         <!--This is the note field-->
-        <textarea type="text" class="note" placeholder="Input your note"></textarea>
-
-        <!--Submit button-->
-
+        <textarea id="note" type="text" class="note" placeholder="Input your note"></textarea>
         </form>
       </div>
-      <button class="submit-button" type="submit">Submit</button>
+        <!--Submit button-->
+      <button class="submit-button" type="submit" id="submit-button">Submit</button>
+      
+    </div>
+
+    <div class="container-xl">
+        <table class="table" id="table">
+                <tr>
+                    <th scope="col">Account</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Note</th>
+                </tr>
+                <tbody>
+                    <tr>
+                      <td scope="row">CIBC</td>
+                      <td scope="row">$4000</td>
+                      <td scope="row">2023/04/10</td>
+                      <td scope="row">Salary</td>
+                      <td scope="row">March's Salary</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">CIBC</td>
+                      <td scope="row">$400</td>
+                      <td scope="row">2023/04/15</td>
+                      <td scope="row">Food</td>
+                      <td scope="row">Hang out with family</td>
+                    </tr>
+                  </tbody>
+        </table>
     </div>
 
 
-
+    <script>
+        const addBtn = document.getElementById('submit-button');
+        const moneyInput = document.getElementById('money');
+        const categoryInput = document.getElementById('category');
+        const dateInput = document.getElementById('date');
+        const accountTypeInput = document.getElementById('account');
+        const noteInput = document.getElementById('note');
+        const table = document.getElementById('table').getElementsByTagName('tbody')[0];
+      
+        addBtn.addEventListener('click', (event) => {
+          event.preventDefault();
+      
+          // Get the values from the form inputs
+          const money = moneyInput.value;
+          const category = categoryInput.value;
+          const date = dateInput.value;
+          const account = accountTypeInput.value;
+          const note = noteInput.value;
+      
+          // Create a new row in the table and insert the values into the cells
+          const newRow = table.insertRow(-1);
+          const accountCell = newRow.insertCell();
+          const moneyCell = newRow.insertCell();
+          const dateCell = newRow.insertCell();
+          const categoryCell = newRow.insertCell();
+          const noteCell = newRow.insertCell();
+      
+          moneyCell.textContent = "$" + money;
+          categoryCell.textContent = category;  // Fixed variable name
+          dateCell.textContent = date;  // Fixed variable name
+          accountCell.textContent = account;  // Fixed variable name
+          noteCell.textContent = note;
+      
+          // Reset the form inputs
+          moneyInput.value = '';
+          categoryInput.value = '';
+          dateInput.value = '';
+          accountTypeInput.value = '';
+          noteInput.value = '';
+        });
+      </script>
+      
 
 
 
