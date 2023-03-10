@@ -12,103 +12,102 @@
 </head>
 
 <body>
+  <div class="header">
     <h1>
         My PFM Web App
     </h1>
-
+  </div>
+  
+  <div class="app-body">
+<!--Input Area-->
   <div class="background-box">
+    <!--Container 1-->
+
+    <div class="container1">
       <div class="income"><p>INCOME</p></div>
       <img class="switch-icon" src="/assets/icon/swith-icon.svg">
-      <!--The conent can't input-->
-      <div class="name-group">
-        <p class="amount">Amount</p>
-        <p class="catetory">Category</p>
-        <p class="date">Date</p>
-        <p class="account">Account</p>
-        <p class="note">Note</p>
-      </div>
-
-          <!--The conent can input-->
-      <div class="input-group">
-        <!--Form to send data-->
-        <form action="insert_record.php" method="post" id="submit">
-        <!--This is the input money field-->
-            <input id="money" type="number" class="amount-money" placeholder="Input your money" min="1" max="999999999"></input>
-
-        <!--This is the category pulldown-->
-            <select class="category-select" name="category" id="category">
-                <option value="" disabled selected>Select your category</option>
-                <option value="Food 🍗">Food 🍗</option>
-                <option value="Transport 🚌">Transport 🚌</option>
-                <option value="Education 📚">Education 📚</option>
-                <option value="Property 🏠">Property 🏠</option>
-            </select>
-        <!--This is the calendar select date-->
-        <input type="date" id="date" placeholder="Select a date"></input>
-
-        <!--This is the account pulldown-->
-            <select class="account-select" name="account" id="account">
-                <option value="" disabled selected>Select your account</option>
-                <option value="CIBC">CIBC</option>
-                <option value="TD Bank">TD Bank</option>
-                <option value="Wallet">Wallet</option>
-                <option value="Cash">Cash</option>
-              </select>
-
-        <!--This is the note field-->
-        <textarea id="note" type="text" class="note" placeholder="Input your note"></textarea>
-        </form>
-      </div>
-        <!--Submit button-->
-      <button class="submit-button" type="submit" id="submit-button">Submit</button>
-      
     </div>
 
-    <div class="container-xl">
+    <!--Container 2-->
+  <div class="container2">
+    <p class="amount">Amount</p>
+    <input id="money" type="number" class="amount-money" placeholder="Input your money" min="1" max="999999999"></input>
+  </div>
+
+      <!--Container 3-->
+  <div class="container3">
+    <p class="catetory">Category</p>
+    <select class="category-select" name="category" id="category">
+      <option value="" disabled selected>Select your category</option>
+      <option value="Food 🍗">Food 🍗</option>
+      <option value="Transport 🚌">Transport 🚌</option>
+      <option value="Education 📚">Education 📚</option>
+      <option value="Property 🏠">Property 🏠</option>
+  </select>
+  </div>
+
+      <!--Container 4-->
+  <div class="container4">
+    <p class="date">Date</p>
+    <input type="date" id="date" placeholder="Select a date"></input>
+  </div>
+
+      <!--Container 5-->
+  <div class="container5">
+    <p class="account">Account</p>
+    <select class="account-select" name="account" id="account">
+      <option value="" disabled selected>Select your account</option>
+      <option value="CIBC">CIBC</option>
+      <option value="TD Bank">TD Bank</option>
+      <option value="Wallet">Wallet</option>
+      <option value="Cash">Cash</option>
+    </select>
+  </div>
+
+      <!--Container 6-->
+  <div class="container6">
+    <p class="note">Note</p>
+    <textarea id="note" type="text" class="note" placeholder="Input your note"></textarea>
+  </div>
+
+  <!--Container 7-->
+  <div class="container7">
+    <button class="submit-button" type="submit" id="submit-button">Submit</button>
+  </div>
+
+  </div>
+
+<!--Transaction Table Record-->
+    <div class="transaction-table">
         <table class="table" id="table">
-                <tr>
-                    <th scope="col">Account</th>
-                    <th scope="col">Amount</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Category</th>
-                    <th scope="col">Note</th>
-                </tr>
-                <tbody>
-                    <tr>
-                      <td scope="row">CIBC</td>
-                      <td scope="row">$4000</td>
-                      <td scope="row">2023/04/10</td>
-                      <td scope="row">Salary</td>
-                      <td scope="row">March's Salary</td>
-                    </tr>
-                    <tr>
-                      <td scope="row">CIBC</td>
-                      <td scope="row">$400</td>
-                      <td scope="row">2023/04/15</td>
-                      <td scope="row">Food</td>
-                      <td scope="row">Hang out with family</td>
-                    </tr>
+          <thead>
+            <tr>
+              <td>Account</td>
+              <td>Amount</td>
+              <td>Date</td>
+              <td>Category</td>
+              <td>Note</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CIBC</td>
+              <td>$4000</td>
+              <td>2023/04/10</td>
+              <td>Salary</td>
+              <td>March's Salary</td>
+            </tr>
+            <tr>
+              <td>CIBC</td>
+              <td>$400</td>
+              <td>2023/04/15</td>
+              <td>Food</td>
+              <td>Hang out with family</td>
+            </tr>
                   </tbody>
         </table>
     </div>
-
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </div>
 
 
 <script src="app.js"></script>

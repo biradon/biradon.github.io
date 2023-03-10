@@ -18,7 +18,7 @@ addBtn.addEventListener('click', (event) => {
   const note = noteInput.value;
 
   // Create a new row in the table and insert the values into the cells
-  const newRow = table.insertRow(-1);
+  const newRow = table.insertRow(0);
   const accountCell = newRow.insertCell();
   const moneyCell = newRow.insertCell();
   const dateCell = newRow.insertCell();
