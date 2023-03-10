@@ -1,114 +1,153 @@
+* {
+  font-family: monospace;
+}
+
+.header {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.app-body{
+  width: auto;
+  height:fit-content;
+  display: inline-flex;
+  padding: 5px;
+}
+
+
 .background-box {
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    margin-right: 20px;
     box-sizing: border-box;
-    position: absolute;
-    width: 495px;
-    height: 700px;
-    left: 100px;
-    top: 100px;
     background: #FCFCFE;
     border: 3px solid #000000;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
+    border-radius: 15px;
   }
 
-  * {
-    font-family: monospace;
-  }
 
-  h1 {
-    position:absolute;
-    right: 1000px;
-    font-size: 32px;
-  }
+  /* INPUT HEADER */
 
-  /* INCOME */
+.container1{
+  margin: auto;
+  width: 100%;
+  padding: 5px 2px 5px 10px;
+  display: inline-flex;
+
+}
+
 .income {
-position: absolute;
-width: 259px;
-height: 100px;
-left: 50px;
-top: 0px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 77px;
-color: #00BCD4;
+  width: 60%;
+  font-weight: 600;
+  font-size: 32px;
+  color: #00BCD4;
 }
 
-/* Switch income/expense icon */
 .switch-icon {
-  position: absolute;
-  width: 64px;
-  height: 64px;
-  left: 320px;
-  top: 55px;
   }
 
 
-.name-group {
-  position: absolute;
-  left: 50px;
-  top: 130px;
-  font-size: 28px;
+  /* AMOUNT */
+  .container2{
+    margin: auto;
+    width: 100%;
+    padding: 5px 2px 5px 10px;
+    display: inline-flex;
+  }
+
+  .amount{
+    width:30%;
+  }
+  .amount-money {
+    width: 60%;
+  }
+
+
+/*CATEGORY*/
+
+.container3{
+  margin: auto;
+  width: 100%;
+  padding: 5px 2px 5px 10px;
+  display: inline-flex;
 }
 
-.input-group {
-  position: absolute;
-  justify-content: space-between;
-  width: 100px;
-  height: 64px;
-  left: 260px;
-  top: 160px;
+.catetory{
+  width: 30%;
 }
-
-
-/* Input fields go here */
-
-/*Input your money*/
-.amount-money {
-  padding: 6px 6px;
-  margin: 1px 10px 30px 2px;
-  width: 150px;
-}
-
-/*Select your category*/
 .category-select {
-  padding: 6px 6px;
-  margin: 0px 10px 30px 2px;
+  width: 60%;
 }
 
-/*Select your date*/
+/*DATE*/
+
+.container4{
+  margin: auto;
+  width: 100%;
+  padding: 5px 2px 5px 10px;
+  display: inline-flex;
+}
+
+.date{
+  width: 30%;
+}
+
 #date {
-  padding: 6px 6px;
-  margin: -5px 10px 30px 2px;
+  width: 60%;
+  font-size: 14px;
 }
 
-/*Select your account*/
+/*ACCOUNT*/
+.container5{
+  margin: auto;
+  width: 100%;
+  padding: 5px 2px 5px 10px;
+  display: inline-flex;
+}
+
+.account{
+  width: 30%;
+}
 .account-select {
-  padding: 6px 6px;
-  margin: -5px 10px 30px 2px;
+  width: 60%;
 }
 
-/*Input your note*/
-.note {
-  padding: 6px 6px;
-  margin: 5px 10px 30px 2px;
+/*NOTE*/
+
+.container6{
+  margin: auto;
+  width: 100%;
+  padding: 5px 2px 5px 10px;
+  display: inline-flex;
 }
+
+.note {
+  width: 30%;
+}
+
+#note{
+  width: 60%;
+}
+
 
 /*Submit button*/
+.container7{
+  margin: auto;
+  width: 100%;
+  padding: 20px 2px 20px 10px;
+  text-align: center;
+}
+
 .submit-button {
-  margin: 0;
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding: 12px 28px;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 12px;
   transition-duration: 0.4s;
   background-color: #F5E9CF;
+  width: 100px;
+  height: auto;
 }
 
 .submit-button:hover{
@@ -117,54 +156,41 @@ color: #00BCD4;
 }
 
 
-/*Record Table*/
+/*Transaction Table*/
 
-.container-xl {
-  box-sizing: border-box;
-  position:absolute;
-  width: 1000px;
-  height: 700px;
-  right: 150px;
-  top: 100px;
-  background: #F7EFE5;
-  border: 2px solid #000000;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
+.transaction-table {
+  width: 60%;
+  height: 750px;
+  float:right;
+  padding-right: 5px;
+  overflow: auto;
 }
 
 
 #table{
   border-collapse: collapse;
+  border: 0.5px solid black;
+  background: #F7EFE5;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
-#table th {
-  border: 0.1px solid black;
-  padding-top: 12px;
-  padding-bottom: 12px;
+
+#table thead td {
   text-align: center;
   font-size: 16px;
+  border: 0.5px solid #000000;
   background-color: #F0A04B;
   color: white;
-
-  width: 994px;
   height: 50px;
   padding: 2px;
-
+  
 }
 
-#table td {
-  border: 0.1px solid black;
-  text-align: center;
+#table tbody tr td {
+  border: 0.5px solid black;
+  text-align: left;
   font-size: 12px;
-  width: 994px;
+  width: 100px;
   height: 50px;
-  padding: 2px;
-
+  padding-left: 10px;
 }
-
-#header {
-  font-size: larger;
-}
-
-
-
