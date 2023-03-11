@@ -9,15 +9,16 @@
 }
 
 .app-body{
-  width: auto;
+  width: 100%;
   height:fit-content;
   display: inline-flex;
   padding: 5px;
+  justify-content: center;
 }
 
 
 .background-box {
-    width: 450px;
+    width: 325px;
     height: 500px;
     overflow: hidden;
     margin-right: 20px;
@@ -47,6 +48,7 @@
 }
 
 .switch-icon {
+  size: 50%;
   }
 
 
@@ -145,13 +147,13 @@
   font-size: 20px;
   border-radius: 12px;
   transition-duration: 0.4s;
-  background-color: #F5E9CF;
+  background-color: #F7C04A;
   width: 100px;
-  height: auto;
+  height: 50px;
 }
 
 .submit-button:hover{
-  background-color: #7DB9B6;
+  background-color: #539165;
   color: white;
 }
 
@@ -159,12 +161,12 @@
 /*Transaction Table*/
 
 .transaction-table {
-  width: 60%;
-  height: 750px;
+  height: 500px;
   float:right;
   padding-right: 5px;
   overflow: auto;
-}
+  padding-left: 20px;
+} 
 
 
 #table{
@@ -175,7 +177,7 @@
 }
 
 
-#table thead td {
+#table thead tr td {
   text-align: center;
   font-size: 16px;
   border: 0.5px solid #000000;
@@ -183,8 +185,11 @@
   color: white;
   height: 50px;
   padding: 2px;
-  
+  width: auto;
 }
+
+
+
 
 #table tbody tr td {
   border: 0.5px solid black;
@@ -194,3 +199,5 @@
   height: 50px;
   padding-left: 10px;
 }
+
+
