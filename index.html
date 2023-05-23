@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My PFM Web App</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="C:\resource\bootstrap-5.3.0-alpha1-dist\bootstrap-5.3.0-alpha1-dist\css\bootstrap.min.css">
-<script src="path/to/bootstrap.min.js"></script>
-
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="C:\resource\bootstrap-5.3.0-alpha1-dist\bootstrap-5.3.0-alpha1-dist\css\bootstrap.min.css">
+  <script src="path/to/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
 </head>
 
@@ -21,20 +21,19 @@
   <div class="app-body">
 <!--Input Area-->
   <div class="background-box">
-    <!--Container 1-->
-
+    <!--Income/expnese selec-->
     <div class="container1">
       <div class="income"><p>INCOME</p></div>
       <img class="switch-icon" src="/assets/icon/swith-icon.svg">
     </div>
 
-    <!--Container 2-->
+    <!--Amount input field-->
   <div class="container2">
     <p class="amount">Amount</p>
     <input id="money" type="number" class="amount-money" placeholder="Input your money" min="1" max="999999999"></input>
   </div>
 
-      <!--Container 3-->
+      <!--Category selector-->
   <div class="container3">
     <p class="catetory">Category</p>
     <select class="category-select" name="category" id="category">
@@ -46,13 +45,13 @@
   </select>
   </div>
 
-      <!--Container 4-->
+      <!--Date selector-->
   <div class="container4">
     <p class="date">Date</p>
     <input type="date" id="date" placeholder="Select a date"></input>
   </div>
 
-      <!--Container 5-->
+      <!--Account selector-->
   <div class="container5">
     <p class="account">Account</p>
     <select class="account-select" name="account" id="account">
@@ -64,16 +63,19 @@
     </select>
   </div>
 
-      <!--Container 6-->
+      <!--Note-->
   <div class="container6">
     <p class="note">Note</p>
     <textarea id="note" type="text" class="note" placeholder="Input your note"></textarea>
   </div>
 
-  <!--Container 7-->
+  <!--Submit button-->
   <div class="container7">
     <button class="submit-button" type="submit" id="submit-button">Submit</button>
   </div>
+
+  <!-- Error Message -->
+  <div id="error-message"></div>
 
   </div>
 
@@ -87,24 +89,11 @@
               <td>Date</td>
               <td>Category</td>
               <td>Note</td>
+              <td>Action</td>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>CIBC</td>
-              <td>$4000</td>
-              <td>2023/04/10</td>
-              <td>Salary</td>
-              <td>March's Salary</td>
-            </tr>
-            <tr>
-              <td>CIBC</td>
-              <td>$400</td>
-              <td>2023/04/15</td>
-              <td>Food</td>
-              <td>Hang out with family</td>
-            </tr>
-                  </tbody>
+          </tbody>
         </table>
     </div>
   </div>
