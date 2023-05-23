@@ -184,7 +184,7 @@
   background-color: #F0A04B;
   color: white;
   height: 50px;
-  padding: 2px;
+  padding: 5px 15px 5px 15px;
   width: auto;
 }
 
@@ -200,4 +200,7 @@
   padding-left: 10px;
 }
 
+#error-message {
+  color: red;
+}
 
