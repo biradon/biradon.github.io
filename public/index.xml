@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Chau Minh Truong</title>
-    <link>http://localhost:1313/biradon/biradon.github.io/</link>
+    <link>https://github.com/biradon/biradon.github.io/</link>
     <description>Recent content on Chau Minh Truong</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Dec 2024 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/biradon/biradon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.com/biradon/biradon.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/biradon/biradon.github.io/about/</link>
+      <link>https://github.com/biradon/biradon.github.io/about/</link>
       <pubDate>Fri, 06 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/biradon/biradon.github.io/about/</guid>
+      <guid>https://github.com/biradon/biradon.github.io/about/</guid>
       <description>A short summary about me</description>
     </item>
     <item>
       <title>Remember the day 🚩</title>
-      <link>http://localhost:1313/biradon/biradon.github.io/posts/remember-the-day/</link>
+      <link>https://github.com/biradon/biradon.github.io/posts/remember-the-day/</link>
       <pubDate>Thu, 05 Dec 2024 22:36:02 -0500</pubDate>
-      <guid>http://localhost:1313/biradon/biradon.github.io/posts/remember-the-day/</guid>
+      <guid>https://github.com/biradon/biradon.github.io/posts/remember-the-day/</guid>
       <description>&lt;p&gt;Big thanks to &lt;a href=&#34;https://youtu.be/hjD9jTi_DQ4?si=JGRKfm6NdYqnawmY&#34;&gt;Evanto Tuts+&lt;/a&gt; for the tutorial—the calm and clear explanations made it so easy to follow. I’m always inspired by how the tech community shares knowledge and helps each other grow, which is one of the biggest reasons the tech world moves so fast 🏃‍♂️💨&lt;/p&gt;
 &lt;p&gt;This website started as part of my journey as a 5th-semester Computer Programming student, set to graduate in April 2025. In this field, having a website feels like a must for landing a job, so here I am! 🤓&lt;/p&gt;</description>
     </item>
