@@ -32,24 +32,8 @@ params:
 
   ShowReadingTime: true
 
-  ShowShareButtons: true
-
-  ShowPostNavLinks: true
-
 menu:
   main:
     - name: "About Me"
       url: "/about/"
       weight: 1
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 10
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 10
