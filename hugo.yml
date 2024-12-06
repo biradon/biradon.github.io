@@ -1,0 +1,44 @@
+baseURL: "https://biradon.github.io/"
+languageCode: en-us
+title: Chau Minh Truong
+theme: PaperMod
+
+params:
+  env: production
+  defaultTheme: light
+  assets:
+    favicon32x32: "/tea-cup.png"
+  homeInfoParams:
+    Title: "Hi, My name is Minh 👋"
+    Content: "Welcome to my page"
+  socialIcons:
+    - name: github
+      url: "https://github.com/biradon"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/chauminhtruong/"
+
+  cover:
+    linkFullImages: true
+  
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
