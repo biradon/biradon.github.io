@@ -10,12 +10,20 @@ params:
     favicon32x32: "/tea-cup.png"
   homeInfoParams:
     Title: "Hi, My name is Minh 👋"
-    Content: "Welcome to my page"
+    Content: "I love sharing what I know. While I’ve doing quite-well this in everyday conversations, I now want to explore expressing it in non-verbal ways 📝
+              Also, I have a thing for emojis—you’re gonna see a lot  🤓"
   socialIcons:
-    - name: github
-      url: "https://github.com/biradon"
     - name: linkedin
       url: "https://www.linkedin.com/in/chauminhtruong/"
+    - name: leetcode
+      url: "https://leetcode.com/u/biradon/"
+    - name: github
+      url: "https://github.com/biradon"
+    - name: youtube
+      url: "https://www.youtube.com/@biradon4444"
+    - name: behance
+      url: "https://www.behance.net/truongchauminh"
+
 
   cover:
     linkFullImages: true
@@ -30,6 +38,9 @@ params:
 
 menu:
   main:
+    - name: "About Me"
+      url: "/about/"
+      weight: 1
     - identifier: categories
       name: Categories
       url: /categories/
