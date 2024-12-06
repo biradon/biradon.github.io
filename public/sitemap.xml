@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://biradon.github.io/categories/</loc>
     <lastmod>2024-12-05T22:36:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://biradon.github.io/</loc>
     <lastmod>2024-12-05T22:36:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>https://biradon.github.io/tags/css/</loc>
     <lastmod>2024-12-05T22:36:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/first/</loc>
+    <loc>https://biradon.github.io/posts/first/</loc>
     <lastmod>2024-12-05T22:36:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/second/</loc>
+    <loc>https://biradon.github.io/posts/second/</loc>
     <lastmod>2024-12-05T22:36:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
+    <loc>https://biradon.github.io/tags/html/</loc>
     <lastmod>2024-12-05T22:36:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://biradon.github.io/posts/</loc>
     <lastmod>2024-12-05T22:36:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://biradon.github.io/tags/</loc>
     <lastmod>2024-12-05T22:36:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tech/</loc>
+    <loc>https://biradon.github.io/categories/tech/</loc>
     <lastmod>2024-12-05T22:36:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://biradon.github.io/archives/</loc>
   </url>
 </urlset>
