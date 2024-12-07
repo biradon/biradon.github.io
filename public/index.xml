@@ -6,14 +6,74 @@
     <description>Recent content on Chau Minh Truong</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Dec 2024 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://github.com/biradon/biradon.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Story begin</title>
+      <title>My Resume</title>
+      <link>https://github.com/biradon/biradon.github.io/resume/</link>
+      <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
+      <guid>https://github.com/biradon/biradon.github.io/resume/</guid>
+      <description>&lt;h2 id=&#34;education-&#34;&gt;Education 🎓&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;george-brown-college&#34;&gt;George Brown College&lt;/h3&gt;
+&lt;h4 id=&#34;advanced-diploma-degree-in-computer-programming-and-analysis--graduating-april-2025&#34;&gt;Advanced Diploma Degree in Computer Programming and Analysis | Graduating April 2025&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Recipient of Innovative Leadership Award&lt;/li&gt;
+&lt;li&gt;Recipient of Student Association International Arts and Design Student Scholarship&lt;/li&gt;
+&lt;li&gt;Recognized on the Dean&amp;rsquo;s list with a 3.79 GPA: Winter 2023, Spring 2023, Fall 2023, Winter 2024&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;university-of-social-sciences-and-humanities&#34;&gt;University Of Social Sciences and Humanities&lt;/h3&gt;
+&lt;h4 id=&#34;bachelors-degree-japanese-language-and-literature--graduated-april-2019&#34;&gt;Bachelor&amp;rsquo;s degree, Japanese Language and Literature | Graduated April 2019&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Hosei Speech Contest 2017 - 1st Prize 🏆&lt;/li&gt;
+&lt;li&gt;Kakei Speech Contest 2018 - Top 10 🏅&lt;/li&gt;
+&lt;li&gt;South Universities Speech Contest 2019 - 3rd Prize 🥉&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;work-experience-&#34;&gt;Work Experience 💼&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;george-brown-college-1&#34;&gt;George Brown College&lt;/h3&gt;
+&lt;h4 id=&#34;welcome-desk-ambassador--may-2023---present&#34;&gt;Welcome Desk Ambassador | May 2023 - Present&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Achieved Innovative Leadership Award and Student Scholarship for developing a locker rental website that enhanced the student service system&lt;/li&gt;
+&lt;li&gt;Detected and investigated cybersecurity risks in the college&amp;rsquo;s KIOSK system, collaborating with the security team to demonstrate and discuss solutions&lt;/li&gt;
+&lt;li&gt;Supported students with technical issues and investigated problems within the integrated system, including third-party services used by the college such as D2L, paymytuition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;santas-village&#34;&gt;Santa’s Village&lt;/h3&gt;
+&lt;h4 id=&#34;guest-services--turnstiles-attendant--may-2024---september-2024&#34;&gt;Guest Services &amp;amp; Turnstiles Attendant | May 2024 - September 2024&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Achieved Employee of the Month recognition within the first month of employment&lt;/li&gt;
+&lt;li&gt;Detected a risk in the POS system related to payment authentication and collaborated with the finance team to implement password protection, preventing future mistakes by the customer service team&lt;/li&gt;
+&lt;li&gt;Effectively engaged with a diverse range of 1,500+ daily guests, including children, parents, and seniors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;skills-and-tools-&#34;&gt;Skills and Tools 📚&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://skillicons.dev/icons?i=html,css,bootstrap,js,react,nodejs,expressjs,php,python,django,flask,java,spring,cs,dotnet&#34; /&gt;
+  &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When I am not at my desk</title>
+      <link>https://github.com/biradon/biradon.github.io/beyond-code/</link>
+      <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
+      <guid>https://github.com/biradon/biradon.github.io/beyond-code/</guid>
+      <description>&lt;h3 id=&#34;leadership-in-action-&#34;&gt;Leadership in Action 🤾‍♂️&lt;/h3&gt;
+&lt;p&gt;I was the Vice President of the &lt;strong&gt;Saigon Dragonflies Quadball Community&lt;/strong&gt;. At the time, quadball in Saigon was small and lacked internal connection.&lt;/p&gt;
+&lt;p&gt;My mission was to strengthen internal bonds and expand the community. I hosted training programs, analyzed match videos to develop new strategies for my team, and made a remarkable contribution by creating a radio series for the national quadball community.&lt;/p&gt;
+&lt;p&gt;As a result, our community grew from &lt;strong&gt;42 to 134 members&lt;/strong&gt;, and my radio series received widespread praise. People eagerly awaited each episode, and some even organized offline hangouts to listen to the broadcasts together.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
       <link>https://github.com/biradon/biradon.github.io/about/</link>
       <pubDate>Fri, 06 Dec 2024 12:00:00 +0000</pubDate>
       <guid>https://github.com/biradon/biradon.github.io/about/</guid>
-      <description>A short summary about me</description>
+      <description>&lt;hr&gt;
+&lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
+    &lt;img src=&#34;../profile.jpg&#34; alt=&#34;My picture&#34; style=&#34;max-width: 50%; border-radius: 180px;&#34; /&gt;
+  &lt;/div&gt;
+&lt;h3 id=&#34;hi-im-minh-&#34;&gt;Hi, I&amp;rsquo;m Minh 🙋‍♂️&lt;/h3&gt;
+&lt;p&gt;I love sharing new ideas, dreams, and software 👨‍💻&lt;/p&gt;
+&lt;p&gt;I’m a &lt;strong&gt;Computer Programming&lt;/strong&gt; student at George Brown College! Outside of school, I’m a semi-professional quidditch player, an enthusiastic presenter, and a former filmmaker. I enjoy public speaking, playing guitar, reading manga, and spending time with my family and friends 👨‍👩‍👧‍👦&lt;/p&gt;
+&lt;p&gt;I created this website as a non-verbal way to communicate with the world—a place to capture and share my thoughts and experiences. By converting my ideas into writing, I aim to grow as a technologist and writer 📝&lt;/p&gt;</description>
     </item>
     <item>
       <title>Remember the day 🚩</title>

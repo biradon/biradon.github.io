@@ -34,6 +34,12 @@ params:
 
 menu:
   main:
-    - name: "About Me"
+    - name: "About Me 🤓"
       url: "/about/"
       weight: 1
+    - name: "Resume 📜"
+      url: "/resume/"
+      weight: 2
+    - name: "Beyond Code 🚀"
+      url: "/beyond-code/"
+      weight: 3
