@@ -20,13 +20,13 @@ As a result, our community grew from **42 to 134 members**, and my radio series 
 
 
 ### Craving Public Speaking 🎙
-When I was a child, I can't even count how many **TED Talks** I watched. At that time, I didn’t fully understand what the speakers were talking about, but the impression they left was unforgettable. All I could see was how cool and confident they seemed. From that moment, I decided that one day I would become a presenter—a public speaker.
+When I was a child, I can't even count how many **TED Talks** videos I watched. At that time, I didn’t fully understand what the speakers were talking about, but the impression they left was unforgettable. All I could see was how cool and confident they seemed. From that moment, I decided that one day I would become a presenter—a public speaker.
 
 
 To pursue this dream, I participated in as many presentation and speech contests as I could during my school and college years. Below are the results of my journey so far:
 
-- Japanese Speaker Forum - 1st Prize 🏆
-- Music Video Competition - Our School - 1st Prize 🏆
-- Hosei Speech Contest 2017 - 1st Prize 🏆
-- Kakei Speech Contest 2018 - Top 10 🏅
-- South University Speech Contest 2019 - 3rd Prize 🥉
+- Japanese Speaker Forum - **1st Prize** 🏆
+- Music Video Competition - **1st Prize** 🏆
+- Hosei Speech Contest 2017 - **1st Prize** 🏆
+- Kakei Speech Contest 2018 - **Top 10** 🏅
+- South University Speech Contest 2019 - **3rd Prize** 🥉

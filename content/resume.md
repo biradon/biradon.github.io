@@ -36,18 +36,18 @@ draft: false
 
 #### Welcome Desk Ambassador | May 2023 - Present
 
-- Achieved Innovative Leadership Award and Student Scholarship for developing a locker rental website that enhanced the student service system
-- Detected and investigated cybersecurity risks in the college's KIOSK system, collaborating with the security team to demonstrate and discuss solutions
-- Supported students with technical issues and investigated problems within the integrated system, including third-party services used by the college such as D2L, paymytuition
+- Achieved Innovative Leadership Award and Student Scholarship for developing a locker rental website which enhances the student service system
+- Detected and investigated cybersecurity risks in the college's KIOSK system. Inform the security team about the risk and discuss solutions
+- Supported students with technical issues and investigated problems of college's integrated systems such as third party services like D2L, paymytuition
 
 
 ### Santa’s Village 
 
-#### Guest Services & Turnstiles Attendant | May 2024 - September 2024
+#### Guest Services | May 2024 - September 2024
 
-- Achieved Employee of the Month recognition within the first month of employment
-- Detected a risk in the POS system related to payment authentication and collaborated with the finance team to implement password protection, preventing future mistakes by the customer service team
-- Effectively engaged with a diverse range of 1,500+ daily guests, including children, parents, and seniors
+- Achieved Employee of the Month recognition in the first month of employment
+- Detected a risk in the POS system related to ticket payment authentication and collaborated with the finance team to implement password protection
+- Engaged with a diverse range of 1,500+ daily guests, including children, parents, and seniors
 
 
 ## Skills and Tools 📚
