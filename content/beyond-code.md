@@ -25,8 +25,8 @@ When I was a child, I can't even count how many **TED Talks** videos I watched. 
 
 To pursue this dream, I participated in as many presentation and speech contests as I could during my school and college years. Below are the results of my journey so far:
 
-- Japanese Speaker Forum - **1st Prize** 🏆
-- Music Video Competition - **1st Prize** 🏆
+- Japanese Speaker Forum 2013 - **1st Prize** 🏆
+- Music Video Competition 2014 - **1st Prize** 🏆
 - Hosei Speech Contest 2017 - **1st Prize** 🏆
 - Kakei Speech Contest 2018 - **Top 10** 🏅
 - South University Speech Contest 2019 - **3rd Prize** 🥉
