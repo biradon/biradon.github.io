@@ -32,6 +32,34 @@ I was the UI/UX Designer and worked on prompt engineering to design the LLM that
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
 </noscript><meta property="og:url" content="http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/">
   <meta property="og:site_name" content="Chau Minh Truong">
   <meta property="og:title" content="SeeFruits">
@@ -41,8 +69,6 @@ What I did 👨‍💻 I was the UI/UX Designer and worked on prompt engineering
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="project_details">
-    <meta property="article:published_time" content="2024-12-07T12:00:00+00:00">
-    <meta property="article:modified_time" content="2024-12-07T12:00:00+00:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SeeFruits">
 <meta name="twitter:description" content="Overview 📜
@@ -86,8 +112,8 @@ I was the UI/UX Designer and worked on prompt engineering to design the LLM that
   "articleBody": "Overview 📜 This is the hackathon project I joined with my team in Waterloo. It was my first hackathon ever, and we were all so inspired by the vibe from Silicon Valley. The whole 2 days felt like a mini Silicon Valley experience!\n(That’s why our app’s name is SeeFruits 😆)\nWhat I did 👨‍💻 I was the UI/UX Designer and worked on prompt engineering to design the LLM that fit our needs. I integrated it with Gemini Flask 2.0 and created a FastAPI server to connect with our front-end.\nI also did research on ugly fruit to prepare for our presentation, where we presented alongside big tech companies like Google, Near, and venture capitalists (VCs)—my first time being critiqued by VCs 🤪\nAt the same time, I acted as a scrum master, helping my teammates overcome obstacles such as a lack of coffee, guiding them to locations, and coordinating with organizers.\nWhat I got 💪 It was my first-ever experience in a hackathon, and I had a dozen moments of fun with my team. Besides all the valuable insights shared by the mentors, organizers, and judges, I think the thing I value the most are the memories I created with my friends. This is one of the moments I truly enjoyed being a student 👨‍🎓\nResource 📦 Live Demo\nGitHub Repo\nSkill I leanred 🤓 ",
   "wordCount" : "226",
   "inLanguage": "en",
-  "datePublished": "2024-12-07T12:00:00Z",
-  "dateModified": "2024-12-07T12:00:00Z",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/"
@@ -107,6 +133,10 @@ I was the UI/UX Designer and worked on prompt engineering to design the LLM that
 <body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -151,13 +181,13 @@ I was the UI/UX Designer and worked on prompt engineering to design the LLM that
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/biradon/biradon.github.io/beyond-code/" title="Beyond Code 🚀">
-                    <span>Beyond Code 🚀</span>
+                <a href="http://localhost:1313/biradon/biradon.github.io/resume/" title="Resume 📜">
+                    <span>Resume 📜</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/biradon/biradon.github.io/resume/" title="Resume 📜">
-                    <span>Resume 📜</span>
+                <a href="http://localhost:1313/biradon/biradon.github.io/beyond-code/" title="Beyond Code 🚀">
+                    <span>Beyond Code 🚀</span>
                 </a>
             </li>
         </ul>
@@ -171,7 +201,7 @@ I was the UI/UX Designer and worked on prompt engineering to design the LLM that
     <h1 class="post-title entry-hint-parent">
       SeeFruits
     </h1>
-    <div class="post-meta"><span title='2024-12-07 12:00:00 +0000 +0000'>December 7, 2024</span>
+    <div class="post-meta">
 
 </div>
   </header> 

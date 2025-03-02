@@ -30,6 +30,34 @@ I didn’t start directly with the Connect 4 game. Initially, I began with Tic T
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
 </noscript><meta property="og:url" content="http://localhost:1313/biradon/biradon.github.io/project_details/connect4/">
   <meta property="og:site_name" content="Chau Minh Truong">
   <meta property="og:title" content="Connect 4 Game">
@@ -38,8 +66,6 @@ What I did 👨‍💻 I didn’t start directly with the Connect 4 game. Initia
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="project_details">
-    <meta property="article:published_time" content="2024-12-07T12:00:00+00:00">
-    <meta property="article:modified_time" content="2024-12-07T12:00:00+00:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Connect 4 Game">
 <meta name="twitter:description" content="Overview 📜
@@ -81,8 +107,8 @@ I didn’t start directly with the Connect 4 game. Initially, I began with Tic T
   "articleBody": "Overview 📜 This is one of the assignments from my Data Structure and Algorithm class at George Brown College. It’s the first game I’ve ever created and also the first AI-based application I had the opportunity to develop.\nWhat I did 👨‍💻 I didn’t start directly with the Connect 4 game. Initially, I began with Tic Tac Toe to get used to designing OOP for games and to dip my toes in. I even applied the Minimax algorithm there first to ensure I understood it.\nMy strategy when starting something new is always to begin with something small and easy enough for me to grasp the concept, then scale it up later.\nAfter completing Tic Tac Toe, I moved on to Connect 4—which was a bigger challenge for me. When I applied the Minimax algorithm, the AI could make various decent moves, but it wasn’t “smart” enough to beat me. So, I decided to implement Alpha-Beta Pruning, which leveled up the AI’s performance a bit.\nWhat I got 💪 This assignment illuminated all the knowledge I had gained during the period, from the fundamentals of computer programming to OOP and DSA. If I ever had the chance to teach a kid how to program, this would be the final assignment for them before graduating from my CS 101 class.\nI have to give a shout-out to Professor Andrew Rudder, one of the most dedicated professors at George Brown College, for giving us this assignment and for all the passion he brings—not just through his teaching skills, but also his dedication to making students better every day.\nResource 📦 GitHub Repo\nSkill I leanred 🤓 ",
   "wordCount" : "274",
   "inLanguage": "en",
-  "datePublished": "2024-12-07T12:00:00Z",
-  "dateModified": "2024-12-07T12:00:00Z",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "http://localhost:1313/biradon/biradon.github.io/project_details/connect4/"
@@ -102,6 +128,10 @@ I didn’t start directly with the Connect 4 game. Initially, I began with Tic T
 <body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -146,13 +176,13 @@ I didn’t start directly with the Connect 4 game. Initially, I began with Tic T
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/biradon/biradon.github.io/beyond-code/" title="Beyond Code 🚀">
-                    <span>Beyond Code 🚀</span>
+                <a href="http://localhost:1313/biradon/biradon.github.io/resume/" title="Resume 📜">
+                    <span>Resume 📜</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/biradon/biradon.github.io/resume/" title="Resume 📜">
-                    <span>Resume 📜</span>
+                <a href="http://localhost:1313/biradon/biradon.github.io/beyond-code/" title="Beyond Code 🚀">
+                    <span>Beyond Code 🚀</span>
                 </a>
             </li>
         </ul>
@@ -166,7 +196,7 @@ I didn’t start directly with the Connect 4 game. Initially, I began with Tic T
     <h1 class="post-title entry-hint-parent">
       Connect 4 Game
     </h1>
-    <div class="post-meta"><span title='2024-12-07 12:00:00 +0000 +0000'>December 7, 2024</span>
+    <div class="post-meta">
 
 </div>
   </header> 

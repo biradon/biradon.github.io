@@ -28,6 +28,34 @@
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
 </noscript><meta property="og:url" content="http://localhost:1313/biradon/biradon.github.io/project_details/">
   <meta property="og:site_name" content="Chau Minh Truong">
   <meta property="og:title" content="Project_details">
@@ -57,6 +85,10 @@
 <body class="list" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -101,13 +133,13 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/biradon/biradon.github.io/beyond-code/" title="Beyond Code 🚀">
-                    <span>Beyond Code 🚀</span>
+                <a href="http://localhost:1313/biradon/biradon.github.io/resume/" title="Resume 📜">
+                    <span>Resume 📜</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/biradon/biradon.github.io/resume/" title="Resume 📜">
-                    <span>Resume 📜</span>
+                <a href="http://localhost:1313/biradon/biradon.github.io/beyond-code/" title="Beyond Code 🚀">
+                    <span>Beyond Code 🚀</span>
                 </a>
             </li>
         </ul>
@@ -122,14 +154,73 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">George Brown College Locker Rental Map
+    <h2 class="entry-hint-parent">Connect 4 Game
     </h2>
   </header>
   <div class="entry-content">
-    <p>George Brown College Locker Rental Map 👨‍🎓 </p>
+    <p>Overview 📜 This is one of the assignments from my Data Structure and Algorithm class at George Brown College. It’s the first game I’ve ever created and also the first AI-based application I had the opportunity to develop.
+What I did 👨‍💻 I didn’t start directly with the Connect 4 game. Initially, I began with Tic Tac Toe to get used to designing OOP for games and to dip my toes in. I even applied the Minimax algorithm there first to ensure I understood it.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-12-07 12:00:00 +0000 +0000'>December 7, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to George Brown College Locker Rental Map" href="http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/"></a>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to Connect 4 Game" href="http://localhost:1313/biradon/biradon.github.io/project_details/connect4/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Locker Rental Map
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>
+Background story 📜 I’m working as a Welcome Desk Ambassador in Casa Loma campus at George Brown College. By the chance I’m working here, I have an opportunity to listen to the conservation from students about where the locker they want to rent is located. Based on that, I popped up to create a website for students to know where the locker they want to rent and apply what I learned.
+...</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to Locker Rental Map" href="http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">SeeFruits
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Overview 📜 This is the hackathon project I joined with my team in Waterloo. It was my first hackathon ever, and we were all so inspired by the vibe from Silicon Valley. The whole 2 days felt like a mini Silicon Valley experience!
+(That’s why our app’s name is SeeFruits 😆)
+What I did 👨‍💻 I was the UI/UX Designer and worked on prompt engineering to design the LLM that fit our needs. I integrated it with Gemini Flask 2.0 and created a FastAPI server to connect with our front-end.
+...</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to SeeFruits" href="http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Testli AI
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Overview 📜 Testli AI is a web application that uses Generative AI to help Vietnamese students prepare effectively for the National University English Exam. Students can visit the website to generate an exam based on their chosen topic. After completing it, they will receive answers along with suggestions on which areas they need to study to improve their score.
+What I did 👨‍💻 In this project, I wear many hats, and I love being flexibile and adaptable to any role the team needs.
+...</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to Testli AI" href="http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Travel E-Commerce
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Overview 📜 This is one of my assignments in the Web Application Development course at George Brown College. I collaborated with two other classmates to create the entire Travel E-Commerce web application and publish it.
+What I did 👨‍💻 For this project, I decided to focus mainly on the Front-End, an area I wasn’t particularly strong in. I wanted to challenge myself by stepping into a different role and pushing myself outside of my comfort zone. At the same time, I also took care of the deployment step using Azure.
+...</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to Travel E-Commerce" href="http://localhost:1313/biradon/biradon.github.io/project_details/travel/"></a>
 </article>
     </main>
     

@@ -1,6 +1,5 @@
 ---
 title: "Testli AI"
-date: 2024-12-07T12:00:00+00:00
 draft: false
 ---
 

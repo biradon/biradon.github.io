@@ -30,6 +30,34 @@ For this project, I decided to focus mainly on the Front-End, an area I wasn&rsq
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
 </noscript><meta property="og:url" content="http://localhost:1313/biradon/biradon.github.io/project_details/travel/">
   <meta property="og:site_name" content="Chau Minh Truong">
   <meta property="og:title" content="Travel E-Commerce">
@@ -38,8 +66,6 @@ What I did 👨‍💻 For this project, I decided to focus mainly on the Front-
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="project_details">
-    <meta property="article:published_time" content="2024-12-07T12:00:00+00:00">
-    <meta property="article:modified_time" content="2024-12-07T12:00:00+00:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Travel E-Commerce">
 <meta name="twitter:description" content="Overview 📜
@@ -81,8 +107,8 @@ For this project, I decided to focus mainly on the Front-End, an area I wasn&rsq
   "articleBody": "Overview 📜 This is one of my assignments in the Web Application Development course at George Brown College. I collaborated with two other classmates to create the entire Travel E-Commerce web application and publish it.\nWhat I did 👨‍💻 For this project, I decided to focus mainly on the Front-End, an area I wasn’t particularly strong in. I wanted to challenge myself by stepping into a different role and pushing myself outside of my comfort zone. At the same time, I also took care of the deployment step using Azure.\nWhat I got 💪 This was my first time building an entire web application, from Front-End to Back-End, and deploying it using the MVC structure. It was great to see how all the parts connected together, and I gained a lot of knowledge in web application development through this project.\nI have to give a shout-out to Professor Sergio Santilli. While many students may not have appreciated his teaching style, I personally admired his dedication and his ability to push students beyond their knowledge and comfort zones. All of his challenging assignments got me excited to create more on my own.\nResource 📦 Live Demo\nSkill I leanred 🤓 ",
   "wordCount" : "199",
   "inLanguage": "en",
-  "datePublished": "2024-12-07T12:00:00Z",
-  "dateModified": "2024-12-07T12:00:00Z",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "http://localhost:1313/biradon/biradon.github.io/project_details/travel/"
@@ -102,6 +128,10 @@ For this project, I decided to focus mainly on the Front-End, an area I wasn&rsq
 <body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -146,13 +176,13 @@ For this project, I decided to focus mainly on the Front-End, an area I wasn&rsq
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/biradon/biradon.github.io/beyond-code/" title="Beyond Code 🚀">
-                    <span>Beyond Code 🚀</span>
+                <a href="http://localhost:1313/biradon/biradon.github.io/resume/" title="Resume 📜">
+                    <span>Resume 📜</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/biradon/biradon.github.io/resume/" title="Resume 📜">
-                    <span>Resume 📜</span>
+                <a href="http://localhost:1313/biradon/biradon.github.io/beyond-code/" title="Beyond Code 🚀">
+                    <span>Beyond Code 🚀</span>
                 </a>
             </li>
         </ul>
@@ -166,7 +196,7 @@ For this project, I decided to focus mainly on the Front-End, an area I wasn&rsq
     <h1 class="post-title entry-hint-parent">
       Travel E-Commerce
     </h1>
-    <div class="post-meta"><span title='2024-12-07 12:00:00 +0000 +0000'>December 7, 2024</span>
+    <div class="post-meta">
 
 </div>
   </header> 

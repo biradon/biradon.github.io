@@ -5,11 +5,11 @@ theme: PaperMod
 
 params:
   env: production
-  defaultTheme: light
+  defaultTheme: auto
   assets:
     favicon32x32: "/tea-cup.png"
   homeInfoParams:
-    Title: "Hi, My name is Minh 👋"
+    Title: "Hi, my name is Minh 👋"
     Content: "I love sharing what I know. While I’ve been doing quite-well this in everyday conversations, I now want to explore expressing it in non-verbal ways 📝
               Also, I have a thing for emojis — you’re gonna see a lot 😜"
   socialIcons:
@@ -40,8 +40,8 @@ menu:
       weight: 2
     - name: "Beyond Code 🚀"
       url: "/beyond-code/"
-      weight: 3
+      weight: 4
     - name: "Resume 📜"
       url: "/resume/"
-      weight: 4
+      weight: 3
 

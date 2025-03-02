@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>George Brown College Locker Rental Map | Chau Minh Truong</title>
+<title>Locker Rental Map | Chau Minh Truong</title>
 <meta name="keywords" content="">
 <meta name="description" content="
 Background story 📜
@@ -29,18 +29,44 @@ I&rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Bro
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
 </noscript><meta property="og:url" content="http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/">
   <meta property="og:site_name" content="Chau Minh Truong">
-  <meta property="og:title" content="George Brown College Locker Rental Map">
+  <meta property="og:title" content="Locker Rental Map">
   <meta property="og:description" content="
 Background story 📜 I’m working as a Welcome Desk Ambassador in Casa Loma campus at George Brown College. By the chance I’m working here, I have an opportunity to listen to the conservation from students about where the locker they want to rent is located. Based on that, I popped up to create a website for students to know where the locker they want to rent and apply what I learned.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="project_details">
-    <meta property="article:published_time" content="2024-12-07T12:00:00+00:00">
-    <meta property="article:modified_time" content="2024-12-07T12:00:00+00:00">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="George Brown College Locker Rental Map">
+<meta name="twitter:title" content="Locker Rental Map">
 <meta name="twitter:description" content="
 Background story 📜
 I&rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Brown College. By the chance I&rsquo;m working here, I have an opportunity to listen to the conservation from students about where the locker they want to rent is located. Based on that, I popped up to create a website for students to know where the locker they want to rent and apply what I learned.">
@@ -60,7 +86,7 @@ I&rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Bro
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "George Brown College Locker Rental Map",
+      "name": "Locker Rental Map",
       "item": "http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/"
     }
   ]
@@ -70,8 +96,8 @@ I&rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Bro
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "George Brown College Locker Rental Map",
-  "name": "George Brown College Locker Rental Map",
+  "headline": "Locker Rental Map",
+  "name": "Locker Rental Map",
   "description": "\nBackground story 📜 I\u0026rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Brown College. By the chance I\u0026rsquo;m working here, I have an opportunity to listen to the conservation from students about where the locker they want to rent is located. Based on that, I popped up to create a website for students to know where the locker they want to rent and apply what I learned.\n",
   "keywords": [
     
@@ -79,8 +105,8 @@ I&rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Bro
   "articleBody": "\nBackground story 📜 I’m working as a Welcome Desk Ambassador in Casa Loma campus at George Brown College. By the chance I’m working here, I have an opportunity to listen to the conservation from students about where the locker they want to rent is located. Based on that, I popped up to create a website for students to know where the locker they want to rent and apply what I learned.\nWhat I did 👨‍💻 I’m using the automation script from Python to scrape the data from StuView (student’s portal) and used Flask as a Backend for the website. For the students could get the new data, they can click the button to fetch the latest data. I went around the campus to check locker ID and to draw a map for my website using Figma. And last but not least, I released my website by using EC2 and Docker.\nWhat I got 📚 The first day to show for the student who came and asked me how to rent the locker and I was confident to show my website to them and received several decent feedback. During that time, I recognized the pretty interesting thing that the rental locker system would display available lockers depending on which program the student was in (Initially, I thought that every student would view the same available lockers). By doing this project, I reviewed all of the knowledge and learned many new skills for my future career path.\nResource 📦 Live Demo (It will take 20s to start the server, please wait 😁)\nGitHub Repo\nSkill I leanred 🤓 ",
   "wordCount" : "266",
   "inLanguage": "en",
-  "datePublished": "2024-12-07T12:00:00Z",
-  "dateModified": "2024-12-07T12:00:00Z",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/"
@@ -100,6 +126,10 @@ I&rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Bro
 <body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -144,13 +174,13 @@ I&rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Bro
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/biradon/biradon.github.io/beyond-code/" title="Beyond Code 🚀">
-                    <span>Beyond Code 🚀</span>
+                <a href="http://localhost:1313/biradon/biradon.github.io/resume/" title="Resume 📜">
+                    <span>Resume 📜</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/biradon/biradon.github.io/resume/" title="Resume 📜">
-                    <span>Resume 📜</span>
+                <a href="http://localhost:1313/biradon/biradon.github.io/beyond-code/" title="Beyond Code 🚀">
+                    <span>Beyond Code 🚀</span>
                 </a>
             </li>
         </ul>
@@ -162,9 +192,9 @@ I&rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Bro
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      George Brown College Locker Rental Map
+      Locker Rental Map
     </h1>
-    <div class="post-meta"><span title='2024-12-07 12:00:00 +0000 +0000'>December 7, 2024</span>
+    <div class="post-meta">
 
 </div>
   </header> 

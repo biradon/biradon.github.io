@@ -1,6 +1,5 @@
 ---
-title: "George Brown College Locker Rental Map"
-date: 2024-12-07T12:00:00+00:00
+title: "Locker Rental Map"
 draft: false
 ---
 
