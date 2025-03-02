@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Project_details on Chau Minh Truong</title>
+    <link>http://localhost:1313/biradon/biradon.github.io/project_details/</link>
+    <description>Recent content in Project_details on Chau Minh Truong</description>
+    <generator>Hugo -- 0.139.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Dec 2024 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/biradon/biradon.github.io/project_details/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>George Brown College Locker Rental Map</title>
+      <link>http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/</link>
+      <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/</guid>
+      <description>&lt;h3 id=&#34;george-brown-college-locker-rental-map-hahahugoshortcode49s0hbhb-resume&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/resume/&#34; title=&#34;resume&#34;&gt;George Brown College Locker Rental Map 👨‍🎓&lt;/a&gt;&lt;/h3&gt;
+&lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
+    &lt;img src=&#34;../images/Locker-Rental.png&#34; alt=&#34;Locker Rental&#34; style=&#34;width:500px; height:600px; border-radius: 25px;&#34; /&gt;
+&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

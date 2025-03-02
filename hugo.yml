@@ -15,10 +15,10 @@ params:
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/chauminhtruong/"
-    - name: leetcode
-      url: "https://leetcode.com/u/biradon/"
     - name: github
       url: "https://github.com/biradon"
+    - name: leetcode
+      url: "https://leetcode.com/u/biradon/"
     - name: youtube
       url: "https://www.youtube.com/@biradon4444"
     - name: behance
@@ -28,18 +28,20 @@ params:
   cover:
     linkFullImages: true
   
-  ShowBreadCrumbs: true
 
-  ShowReadingTime: true
 
 menu:
   main:
     - name: "About Me 🤓"
       url: "/about/"
       weight: 1
-    - name: "Resume 📜"
-      url: "/resume/"
+    - name: "My Projects 📦"
+      url: "/projects/"
       weight: 2
     - name: "Beyond Code 🚀"
       url: "/beyond-code/"
       weight: 3
+    - name: "Resume 📜"
+      url: "/resume/"
+      weight: 4
+
