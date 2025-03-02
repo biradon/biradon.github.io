@@ -19,16 +19,6 @@
 &lt;p&gt;I didn’t start directly with the Connect 4 game. Initially, I began with &lt;strong&gt;Tic Tac Toe&lt;/strong&gt; to get used to designing OOP for games and to dip my toes in. I even applied the &lt;strong&gt;Minimax algorithm&lt;/strong&gt; there first to ensure I understood it.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Connect 4 Game</title>
-      <link>http://localhost:1313/biradon/biradon.github.io/project_details/travel/</link>
-      <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/travel/</guid>
-      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
-&lt;p&gt;This is one of my assignments in the &lt;strong&gt;Web Application Development&lt;/strong&gt; course at George Brown College. I collaborated with two other classmates to create the entire Travel E-Commerce web application and publish it.&lt;/p&gt;
-&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
-&lt;p&gt;For this project, I decided to focus mainly on the &lt;strong&gt;Front-End&lt;/strong&gt;, an area I wasn&amp;rsquo;t particularly strong in. I wanted to challenge myself by stepping into a different role and pushing myself outside of my comfort zone. At the same time, I also took care of the &lt;strong&gt;deployment step&lt;/strong&gt; using Azure.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>George Brown College Locker Rental Map</title>
       <link>http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/</link>
       <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
@@ -164,6 +154,16 @@
 &lt;p&gt;Testli AI is a web application that uses &lt;strong&gt;Generative AI to help Vietnamese students prepare effectively for the National University English Exam&lt;/strong&gt;. Students can visit the website to generate an exam based on their chosen topic. After completing it, they will receive answers along with suggestions on which areas they need to study to improve their score.&lt;/p&gt;
 &lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
 &lt;p&gt;In this project, I wear many hats, and I love being flexibile and adaptable to any role the team needs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Travel E-Commerce</title>
+      <link>http://localhost:1313/biradon/biradon.github.io/project_details/travel/</link>
+      <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/travel/</guid>
+      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
+&lt;p&gt;This is one of my assignments in the &lt;strong&gt;Web Application Development&lt;/strong&gt; course at George Brown College. I collaborated with two other classmates to create the entire Travel E-Commerce web application and publish it.&lt;/p&gt;
+&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
+&lt;p&gt;For this project, I decided to focus mainly on the &lt;strong&gt;Front-End&lt;/strong&gt;, an area I wasn&amp;rsquo;t particularly strong in. I wanted to challenge myself by stepping into a different role and pushing myself outside of my comfort zone. At the same time, I also took care of the &lt;strong&gt;deployment step&lt;/strong&gt; using Azure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>When I am not at my desk</title>
