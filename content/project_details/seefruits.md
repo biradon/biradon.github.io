@@ -11,6 +11,8 @@ cover:
 ### Overview 📜
 This is the **[hackathon](https://hackcanada.org/) project** I joined with my team in Waterloo. It was my first hackathon ever, and we were all so inspired by the vibe from Silicon Valley. The whole 2 days felt like a mini Silicon Valley experience!
 
+We created an AI-powered marketplace using object detection of Gemini to identify and promote “ugly” fruits, addressing food waste as a national issue in Canada - theme of this year event.
+
 ![This is the one](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21vMWhqaXNtdTYyaXNpcXdrbGFjanNsOTRzY292ZjhxMDFhZWE5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26FmQcjUrHfNjKQGA/giphy.gif)
 (That's why our app's name is SeeFruits 😆)
 

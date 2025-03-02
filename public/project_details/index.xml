@@ -8,6 +8,16 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/biradon/biradon.github.io/project_details/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Testli AI</title>
+      <link>http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/</guid>
+      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
+&lt;p&gt;Testli AI is a web application that uses Generative AI to help Vietnamese students prepare effectively for the National University English Exam. &lt;strong&gt;Students can generate an exam based on their chosen topic&lt;/strong&gt;. After completing it, they will receive answers along with suggestions on which areas they need to study to improve their score.&lt;/p&gt;
+&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
+&lt;p&gt;In this project, I wear many hats, and I love being flexibile and adaptable to any role the team needs.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Locker Rental Map</title>
       <link>http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -16,26 +26,13 @@
 &lt;p&gt;I&amp;rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Brown College. By the chance I&amp;rsquo;m working here, I have an opportunity to listen to the conservation from students about where the locker they want to rent is located. Based on that, I popped up to create &lt;strong&gt;a website for students to know where the locker they want to rent&lt;/strong&gt; and apply what I learned.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Testli AI</title>
-      <link>http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/</guid>
-      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
-&lt;p&gt;Testli AI is a web application that uses &lt;strong&gt;Generative AI to help Vietnamese students prepare effectively for the National University English Exam&lt;/strong&gt;. Students can visit the website to generate an exam based on their chosen topic. After completing it, they will receive answers along with suggestions on which areas they need to study to improve their score.&lt;/p&gt;
-&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
-&lt;p&gt;In this project, I wear many hats, and I love being flexibile and adaptable to any role the team needs.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>SeeFruits</title>
       <link>http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/</guid>
       <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
 &lt;p&gt;This is the &lt;strong&gt;&lt;a href=&#34;https://hackcanada.org/&#34;&gt;hackathon&lt;/a&gt; project&lt;/strong&gt; I joined with my team in Waterloo. It was my first hackathon ever, and we were all so inspired by the vibe from Silicon Valley. The whole 2 days felt like a mini Silicon Valley experience!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;This is the one&#34; loading=&#34;lazy&#34; src=&#34;https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21vMWhqaXNtdTYyaXNpcXdrbGFjanNsOTRzY292ZjhxMDFhZWE5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26FmQcjUrHfNjKQGA/giphy.gif&#34;&gt;
-(That&amp;rsquo;s why our app&amp;rsquo;s name is SeeFruits 😆)&lt;/p&gt;
-&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
-&lt;p&gt;I was the &lt;strong&gt;UI/UX Designer&lt;/strong&gt; and worked on prompt engineering to design the LLM that fit our needs. I integrated it with Gemini Flask 2.0 and created a FastAPI server to connect with our front-end.&lt;/p&gt;</description>
+&lt;p&gt;We created an AI-powered marketplace using object detection of Gemini to identify and promote “ugly” fruits, addressing food waste as a national issue in Canada - theme of this year event.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Connect 4 Game</title>
