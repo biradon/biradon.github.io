@@ -1,7 +1,7 @@
 ---
 title: "Locker Rental Map"
 draft: false
-weight: 1
+weight: 2
 cover:
   image: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb242MmtsOW9zbzBjMmZzOXNlMWFoc2tnY256Z2R1N2t0Z2Z0OTd0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0nRmUNEUOs6FvkUcur/giphy.gif"
   relative: false 
