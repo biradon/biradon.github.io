@@ -9,7 +9,7 @@ cover:
 
 
 ### Overview 📜
-Testli AI is a web application that uses **Generative AI to help Vietnamese students prepare effectively for the National University English Exam**. Students can visit the website to generate an exam based on their chosen topic. After completing it, they will receive answers along with suggestions on which areas they need to study to improve their score.
+Testli AI is a web application that uses Generative AI to help Vietnamese students prepare effectively for the National University English Exam. **Students can generate an exam based on their chosen topic**. After completing it, they will receive answers along with suggestions on which areas they need to study to improve their score.
 
 ### What I did 👨‍💻
 In this project, I wear many hats, and I love being flexibile and adaptable to any role the team needs.
