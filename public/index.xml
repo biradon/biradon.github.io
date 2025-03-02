@@ -67,7 +67,7 @@
 &lt;p&gt;This website started as part of my journey as a 5th-semester Computer Programming student, set to graduate in April 2025. In this field, having a website feels like a must for landing a job, so here I am! 🤓&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About Me</title>
+      <title>About Me 🤓</title>
       <link>http://localhost:1313/biradon/biradon.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/biradon/biradon.github.io/about/</guid>
@@ -85,23 +85,23 @@
       <link>http://localhost:1313/biradon/biradon.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/biradon/biradon.github.io/projects/</guid>
-      <description>&lt;h3 id=&#34;george-brown-college-locker-rental-map-hahahugoshortcode122s0hbhb-locker-rental&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/&#34; title=&#34;Locker Rental&#34;&gt;George Brown College Locker Rental Map 👨‍🎓&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;george-brown-college-locker-rental-map-hahahugoshortcode3s0hbhb-locker-rental&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/&#34; title=&#34;Locker Rental&#34;&gt;George Brown College Locker Rental Map 👨‍🎓&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/Locker-Rental.png&#34; alt=&#34;Locker Rental&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;testli-ai--hahahugoshortcode122s2hbhb-testli-ai&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/&#34; title=&#34;Testli AI&#34;&gt;Testli AI 📚 &lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;testli-ai--hahahugoshortcode3s2hbhb-testli-ai&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/&#34; title=&#34;Testli AI&#34;&gt;Testli AI 📚 &lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/testli-ai.png&#34; alt=&#34;Testli AI&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;seefruits---marketplace-for-ugly-fruits-hahahugoshortcode122s4hbhb-seefruits&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/&#34; title=&#34;SeeFruits&#34;&gt;SeeFruits - Marketplace for Ugly Fruits 🍎&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;seefruits---marketplace-for-ugly-fruits-hahahugoshortcode3s4hbhb-seefruits&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/&#34; title=&#34;SeeFruits&#34;&gt;SeeFruits - Marketplace for Ugly Fruits 🍎&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/seefruits.png&#34; alt=&#34;Testli AI&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;connect-4-game---minmax-algorithm-hahahugoshortcode122s6hbhb-connect4game&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/connect4/&#34; title=&#34;Connect4Game&#34;&gt;Connect 4 Game - MinMax Algorithm 🔴🔵&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;connect-4-game---minmax-algorithm-hahahugoshortcode3s6hbhb-connect4game&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/connect4/&#34; title=&#34;Connect4Game&#34;&gt;Connect 4 Game - MinMax Algorithm 🔴🔵&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/Connect4.png&#34; alt=&#34;Connect 4&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;travel-e-commerce-hahahugoshortcode122s8hbhb-travel-e-commerce&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/travel/&#34; title=&#34;Travel E-Commerce&#34;&gt;Travel E-Commerce 🧳✈&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;travel-e-commerce-hahahugoshortcode3s8hbhb-travel-e-commerce&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/travel/&#34; title=&#34;Travel E-Commerce&#34;&gt;Travel E-Commerce 🧳✈&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/travel.png&#34; alt=&#34;Travel E-Commerce&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;</description>
@@ -111,7 +111,7 @@
       <link>http://localhost:1313/biradon/biradon.github.io/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/biradon/biradon.github.io/resume/</guid>
-      <description>&lt;a href=&#34;https://drive.google.com/file/d/13lAm-RCGdq7qAyVv5Npme79xl8tyqabG/view?usp=sharing&#34; target=&#34;_blank&#34; style=&#34;display: inline-block; padding: 10px 20px; background-color: #DC5F00; color: white; text-align: center; border-radius: 10px; text-decoration: none; font-size: 16px;&#34;&gt;
+      <description>&lt;a href=&#34;https://drive.google.com/file/d/1l_GFKx-T794Dy-HpuUTF8nYRcw1YYfnd/view?usp=sharing&#34; target=&#34;_blank&#34; style=&#34;display: inline-block; padding: 10px 20px; background-color: #DC5F00; color: white; text-align: center; border-radius: 10px; text-decoration: none; font-size: 16px;&#34;&gt;
     Download My Resume
 &lt;/a&gt;
 &lt;h2 id=&#34;education-&#34;&gt;Education 🎓&lt;/h2&gt;
@@ -191,7 +191,8 @@
       <link>http://localhost:1313/biradon/biradon.github.io/beyond-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/biradon/biradon.github.io/beyond-code/</guid>
-      <description>&lt;h3 id=&#34;leadership-in-action-&#34;&gt;Leadership in Action 🤾‍♂️&lt;/h3&gt;
+      <description>&lt;hr&gt;
+&lt;h3 id=&#34;leadership-in-action-&#34;&gt;Leadership in Action 🤾‍♂️&lt;/h3&gt;
 &lt;p&gt;I was the Vice President of the &lt;strong&gt;Saigon Dragonflies Quadball Community&lt;/strong&gt;. At the time, quadball in Saigon was small and lacked internal connection.&lt;/p&gt;
 &lt;p&gt;My mission was to strengthen internal bonds and expand the community. I hosted training programs, analyzed match videos to develop new strategies for my team, and made a remarkable contribution by creating a radio series for the national quadball community.&lt;/p&gt;
 &lt;p&gt;As a result, our community grew from &lt;strong&gt;42 to 134 members&lt;/strong&gt;, and my radio series received widespread praise. People eagerly awaited each episode, and some even organized offline hangouts to listen to the broadcasts together.&lt;/p&gt;</description>
