@@ -9,6 +9,56 @@
     <lastBuildDate>Thu, 05 Dec 2024 22:36:02 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/biradon/biradon.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Locker Rental Map</title>
+      <link>http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/</guid>
+      <description>&lt;h3 id=&#34;background-story-&#34;&gt;Background story 📜&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Brown College. By the chance I&amp;rsquo;m working here, I have an opportunity to listen to the conservation from students about where the locker they want to rent is located. Based on that, I popped up to create &lt;strong&gt;a website for students to know where the locker they want to rent&lt;/strong&gt; and apply what I learned.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testli AI</title>
+      <link>http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/</guid>
+      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
+&lt;p&gt;Testli AI is a web application that uses &lt;strong&gt;Generative AI to help Vietnamese students prepare effectively for the National University English Exam&lt;/strong&gt;. Students can visit the website to generate an exam based on their chosen topic. After completing it, they will receive answers along with suggestions on which areas they need to study to improve their score.&lt;/p&gt;
+&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
+&lt;p&gt;In this project, I wear many hats, and I love being flexibile and adaptable to any role the team needs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SeeFruits</title>
+      <link>http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/</guid>
+      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
+&lt;p&gt;This is the &lt;strong&gt;&lt;a href=&#34;https://hackcanada.org/&#34;&gt;hackathon&lt;/a&gt; project&lt;/strong&gt; I joined with my team in Waterloo. It was my first hackathon ever, and we were all so inspired by the vibe from Silicon Valley. The whole 2 days felt like a mini Silicon Valley experience!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;This is the one&#34; loading=&#34;lazy&#34; src=&#34;https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21vMWhqaXNtdTYyaXNpcXdrbGFjanNsOTRzY292ZjhxMDFhZWE5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26FmQcjUrHfNjKQGA/giphy.gif&#34;&gt;
+(That&amp;rsquo;s why our app&amp;rsquo;s name is SeeFruits 😆)&lt;/p&gt;
+&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
+&lt;p&gt;I was the &lt;strong&gt;UI/UX Designer&lt;/strong&gt; and worked on prompt engineering to design the LLM that fit our needs. I integrated it with Gemini Flask 2.0 and created a FastAPI server to connect with our front-end.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Connect 4 Game</title>
+      <link>http://localhost:1313/biradon/biradon.github.io/project_details/connect4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/connect4/</guid>
+      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
+&lt;p&gt;This is one of the assignments from my &lt;strong&gt;Data Structure and Algorithm&lt;/strong&gt; class at George Brown College. It’s the first game I’ve ever created and also the first AI-based application I had the opportunity to develop.&lt;/p&gt;
+&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
+&lt;p&gt;I didn’t start directly with the Connect 4 game. Initially, I began with &lt;strong&gt;Tic Tac Toe&lt;/strong&gt; to get used to designing OOP for games and to dip my toes in. I even applied the &lt;strong&gt;Minimax algorithm&lt;/strong&gt; there first to ensure I understood it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Travel E-Commerce</title>
+      <link>http://localhost:1313/biradon/biradon.github.io/project_details/travel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/travel/</guid>
+      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
+&lt;p&gt;This is one of my assignments in the &lt;strong&gt;Web Application Development&lt;/strong&gt; course at George Brown College. I collaborated with two other classmates to create the entire Travel E-Commerce web application and publish it.&lt;/p&gt;
+&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
+&lt;p&gt;For this project, I decided to focus mainly on the &lt;strong&gt;Front-End&lt;/strong&gt;, an area I wasn&amp;rsquo;t particularly strong in. I wanted to challenge myself by stepping into a different role and pushing myself outside of my comfort zone. At the same time, I also took care of the &lt;strong&gt;deployment step&lt;/strong&gt; using Azure.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Remember the day 🚩</title>
       <link>http://localhost:1313/biradon/biradon.github.io/posts/remember-the-day/</link>
       <pubDate>Thu, 05 Dec 2024 22:36:02 -0500</pubDate>
@@ -31,46 +81,27 @@
 &lt;p&gt;I created this website as a non-verbal way to communicate with the world—a place to capture and share my thoughts and experiences. By converting my ideas into writing, I aim to grow as a technologist and writer 📝&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Connect 4 Game</title>
-      <link>http://localhost:1313/biradon/biradon.github.io/project_details/connect4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/connect4/</guid>
-      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
-&lt;p&gt;This is one of the assignments from my &lt;strong&gt;Data Structure and Algorithm&lt;/strong&gt; class at George Brown College. It’s the first game I’ve ever created and also the first AI-based application I had the opportunity to develop.&lt;/p&gt;
-&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
-&lt;p&gt;I didn’t start directly with the Connect 4 game. Initially, I began with &lt;strong&gt;Tic Tac Toe&lt;/strong&gt; to get used to designing OOP for games and to dip my toes in. I even applied the &lt;strong&gt;Minimax algorithm&lt;/strong&gt; there first to ensure I understood it.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Locker Rental Map</title>
-      <link>http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;This is locker rental&#34; loading=&#34;lazy&#34; src=&#34;https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb242MmtsOW9zbzBjMmZzOXNlMWFoc2tnY256Z2R1N2t0Z2Z0OTd0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0nRmUNEUOs6FvkUcur/giphy.gif&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;background-story-&#34;&gt;Background story 📜&lt;/h3&gt;
-&lt;p&gt;I&amp;rsquo;m working as a Welcome Desk Ambassador in Casa Loma campus at George Brown College. By the chance I&amp;rsquo;m working here, I have an opportunity to listen to the conservation from students about where the locker they want to rent is located. Based on that, I popped up to create &lt;strong&gt;a website for students to know where the locker they want to rent&lt;/strong&gt; and apply what I learned.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>My Projects</title>
       <link>http://localhost:1313/biradon/biradon.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/biradon/biradon.github.io/projects/</guid>
-      <description>&lt;h3 id=&#34;george-brown-college-locker-rental-map-hahahugoshortcode2s0hbhb-locker-rental&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/&#34; title=&#34;Locker Rental&#34;&gt;George Brown College Locker Rental Map 👨‍🎓&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;george-brown-college-locker-rental-map-hahahugoshortcode122s0hbhb-locker-rental&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/&#34; title=&#34;Locker Rental&#34;&gt;George Brown College Locker Rental Map 👨‍🎓&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/Locker-Rental.png&#34; alt=&#34;Locker Rental&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;testli-ai--hahahugoshortcode2s2hbhb-testli-ai&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/&#34; title=&#34;Testli AI&#34;&gt;Testli AI 📚 &lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;testli-ai--hahahugoshortcode122s2hbhb-testli-ai&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/&#34; title=&#34;Testli AI&#34;&gt;Testli AI 📚 &lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/testli-ai.png&#34; alt=&#34;Testli AI&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;seefruits---marketplace-for-ugly-fruits-hahahugoshortcode2s4hbhb-seefruits&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/&#34; title=&#34;SeeFruits&#34;&gt;SeeFruits - Marketplace for Ugly Fruits 🍎&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;seefruits---marketplace-for-ugly-fruits-hahahugoshortcode122s4hbhb-seefruits&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/&#34; title=&#34;SeeFruits&#34;&gt;SeeFruits - Marketplace for Ugly Fruits 🍎&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/seefruits.png&#34; alt=&#34;Testli AI&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;connect-4-game---minmax-algorithm-hahahugoshortcode2s6hbhb-connect4game&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/connect4/&#34; title=&#34;Connect4Game&#34;&gt;Connect 4 Game - MinMax Algorithm 🔴🔵&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;connect-4-game---minmax-algorithm-hahahugoshortcode122s6hbhb-connect4game&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/connect4/&#34; title=&#34;Connect4Game&#34;&gt;Connect 4 Game - MinMax Algorithm 🔴🔵&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/Connect4.png&#34; alt=&#34;Connect 4&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;travel-e-commerce-hahahugoshortcode2s8hbhb-travel-e-commerce&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/travel/&#34; title=&#34;Travel E-Commerce&#34;&gt;Travel E-Commerce 🧳✈&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;travel-e-commerce-hahahugoshortcode122s8hbhb-travel-e-commerce&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/travel/&#34; title=&#34;Travel E-Commerce&#34;&gt;Travel E-Commerce 🧳✈&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/travel.png&#34; alt=&#34;Travel E-Commerce&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;</description>
@@ -154,38 +185,6 @@
 &lt;p align=&#34;center&#34;&gt;
     &lt;img src=&#34;https://skillicons.dev/icons?i=html,css,bootstrap,js,react,nodejs,expressjs,php,python,django,flask,java,spring,cs,dotnet&#34; /&gt;
   &lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>SeeFruits</title>
-      <link>http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/</guid>
-      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
-&lt;p&gt;This is the &lt;strong&gt;&lt;a href=&#34;https://hackcanada.org/&#34;&gt;hackathon&lt;/a&gt; project&lt;/strong&gt; I joined with my team in Waterloo. It was my first hackathon ever, and we were all so inspired by the vibe from Silicon Valley. The whole 2 days felt like a mini Silicon Valley experience!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;This is the one&#34; loading=&#34;lazy&#34; src=&#34;https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21vMWhqaXNtdTYyaXNpcXdrbGFjanNsOTRzY292ZjhxMDFhZWE5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26FmQcjUrHfNjKQGA/giphy.gif&#34;&gt;
-(That&amp;rsquo;s why our app&amp;rsquo;s name is SeeFruits 😆)&lt;/p&gt;
-&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
-&lt;p&gt;I was the &lt;strong&gt;UI/UX Designer&lt;/strong&gt; and worked on prompt engineering to design the LLM that fit our needs. I integrated it with Gemini Flask 2.0 and created a FastAPI server to connect with our front-end.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Testli AI</title>
-      <link>http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/</guid>
-      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
-&lt;p&gt;Testli AI is a web application that uses &lt;strong&gt;Generative AI to help Vietnamese students prepare effectively for the National University English Exam&lt;/strong&gt;. Students can visit the website to generate an exam based on their chosen topic. After completing it, they will receive answers along with suggestions on which areas they need to study to improve their score.&lt;/p&gt;
-&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
-&lt;p&gt;In this project, I wear many hats, and I love being flexibile and adaptable to any role the team needs.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Travel E-Commerce</title>
-      <link>http://localhost:1313/biradon/biradon.github.io/project_details/travel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/biradon/biradon.github.io/project_details/travel/</guid>
-      <description>&lt;h3 id=&#34;overview-&#34;&gt;Overview 📜&lt;/h3&gt;
-&lt;p&gt;This is one of my assignments in the &lt;strong&gt;Web Application Development&lt;/strong&gt; course at George Brown College. I collaborated with two other classmates to create the entire Travel E-Commerce web application and publish it.&lt;/p&gt;
-&lt;h3 id=&#34;what-i-did-&#34;&gt;What I did 👨‍💻&lt;/h3&gt;
-&lt;p&gt;For this project, I decided to focus mainly on the &lt;strong&gt;Front-End&lt;/strong&gt;, an area I wasn&amp;rsquo;t particularly strong in. I wanted to challenge myself by stepping into a different role and pushing myself outside of my comfort zone. At the same time, I also took care of the &lt;strong&gt;deployment step&lt;/strong&gt; using Azure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>When I am not at my desk</title>

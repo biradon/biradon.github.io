@@ -1,6 +1,10 @@
 ---
 title: "Connect 4 Game"
 draft: false
+weight: 4
+cover:
+  image: "./images/Connect4.png"
+  relative: false 
 ---
 
 

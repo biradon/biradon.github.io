@@ -1,6 +1,10 @@
 ---
 title: "Travel E-Commerce"
 draft: false
+weight: 5
+cover:
+  image: "./images/travel.png"
+  relative: false 
 ---
 
 

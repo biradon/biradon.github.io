@@ -1,6 +1,10 @@
 ---
 title: "SeeFruits"
 draft: false
+weight: 3
+cover:
+  image: "./images/seefruits.png"
+  relative: false 
 ---
 
 

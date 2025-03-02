@@ -1,6 +1,10 @@
 ---
 title: "Testli AI"
 draft: false
+weight: 2
+cover:
+  image: "./images/testli-ai.png"
+  relative: false 
 ---
 
 

@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/</loc>
+  </url><url>
+    <loc>http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/</loc>
+  </url><url>
+    <loc>http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/</loc>
+  </url><url>
+    <loc>http://localhost:1313/biradon/biradon.github.io/project_details/connect4/</loc>
+  </url><url>
+    <loc>http://localhost:1313/biradon/biradon.github.io/project_details/travel/</loc>
+  </url><url>
     <loc>http://localhost:1313/biradon/biradon.github.io/</loc>
     <lastmod>2024-12-05T22:36:02-05:00</lastmod>
   </url><url>
@@ -15,23 +25,13 @@
   </url><url>
     <loc>http://localhost:1313/biradon/biradon.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/biradon/biradon.github.io/project_details/connect4/</loc>
-  </url><url>
-    <loc>http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/</loc>
-  </url><url>
     <loc>http://localhost:1313/biradon/biradon.github.io/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/biradon/biradon.github.io/resume/</loc>
   </url><url>
     <loc>http://localhost:1313/biradon/biradon.github.io/project_details/</loc>
   </url><url>
-    <loc>http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/</loc>
-  </url><url>
     <loc>http://localhost:1313/biradon/biradon.github.io/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/</loc>
-  </url><url>
-    <loc>http://localhost:1313/biradon/biradon.github.io/project_details/travel/</loc>
   </url><url>
     <loc>http://localhost:1313/biradon/biradon.github.io/beyond-code/</loc>
   </url>

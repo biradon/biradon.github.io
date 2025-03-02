@@ -1,11 +1,11 @@
 ---
 title: "Locker Rental Map"
 draft: false
+weight: 1
+cover:
+  image: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb242MmtsOW9zbzBjMmZzOXNlMWFoc2tnY256Z2R1N2t0Z2Z0OTd0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0nRmUNEUOs6FvkUcur/giphy.gif"
+  relative: false 
 ---
-
-![This is locker rental](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb242MmtsOW9zbzBjMmZzOXNlMWFoc2tnY256Z2R1N2t0Z2Z0OTd0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0nRmUNEUOs6FvkUcur/giphy.gif)
-
-
 
 ### Background story 📜
 I'm working as a Welcome Desk Ambassador in Casa Loma campus at George Brown College. By the chance I'm working here, I have an opportunity to listen to the conservation from students about where the locker they want to rent is located. Based on that, I popped up to create **a website for students to know where the locker they want to rent** and apply what I learned. 
