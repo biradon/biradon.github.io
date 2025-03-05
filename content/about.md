@@ -5,7 +5,7 @@ draft: false
 
 ---
 
-{{< image "../profile.jpg" "My picture" >}}
+{{< image "../images/profile.jpeg" "My picture" >}}
 
 
 ### Hi, I'm Minh 🙋‍♂️

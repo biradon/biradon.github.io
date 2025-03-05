@@ -70,7 +70,7 @@
       <guid>http://localhost:1313/biradon/biradon.github.io/about/</guid>
       <description>&lt;hr&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
-    &lt;img src=&#34;../profile.jpg&#34; alt=&#34;My picture&#34; style=&#34;max-width: 50%; border-radius: 180px;&#34; /&gt;
+    &lt;img src=&#34;../images/profile.jpeg&#34; alt=&#34;My picture&#34; style=&#34;max-width: 50%; border-radius: 180px;&#34; /&gt;
   &lt;/div&gt;
 &lt;h3 id=&#34;hi-im-minh-&#34;&gt;Hi, I&amp;rsquo;m Minh 🙋‍♂️&lt;/h3&gt;
 &lt;p&gt;I love sharing new ideas, dreams, and software 👨‍💻&lt;/p&gt;
@@ -82,23 +82,23 @@
       <link>http://localhost:1313/biradon/biradon.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/biradon/biradon.github.io/projects/</guid>
-      <description>&lt;h3 id=&#34;george-brown-college-locker-rental-map-hahahugoshortcode4s0hbhb-locker-rental&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/&#34; title=&#34;Locker Rental&#34;&gt;George Brown College Locker Rental Map 👨‍🎓&lt;/a&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;george-brown-college-locker-rental-map-hahahugoshortcode6s0hbhb-locker-rental&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/locker-rental/&#34; title=&#34;Locker Rental&#34;&gt;George Brown College Locker Rental Map 👨‍🎓&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/Locker-Rental.png&#34; alt=&#34;Locker Rental&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;testli-ai--hahahugoshortcode4s2hbhb-testli-ai&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/&#34; title=&#34;Testli AI&#34;&gt;Testli AI 📚 &lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;testli-ai--hahahugoshortcode6s2hbhb-testli-ai&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/testli-ai/&#34; title=&#34;Testli AI&#34;&gt;Testli AI 📚 &lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/testli-ai.png&#34; alt=&#34;Testli AI&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;seefruits---marketplace-for-ugly-fruits-hahahugoshortcode4s4hbhb-seefruits&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/&#34; title=&#34;SeeFruits&#34;&gt;SeeFruits - Marketplace for Ugly Fruits 🍎&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;seefruits---marketplace-for-ugly-fruits-hahahugoshortcode6s4hbhb-seefruits&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/seefruits/&#34; title=&#34;SeeFruits&#34;&gt;SeeFruits - Marketplace for Ugly Fruits 🍎&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/seefruits.png&#34; alt=&#34;Testli AI&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;connect-4-game---minmax-algorithm-hahahugoshortcode4s6hbhb-connect4game&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/connect4/&#34; title=&#34;Connect4Game&#34;&gt;Connect 4 Game - MinMax Algorithm 🔴🔵&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;connect-4-game---minmax-algorithm-hahahugoshortcode6s6hbhb-connect4game&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/connect4/&#34; title=&#34;Connect4Game&#34;&gt;Connect 4 Game - MinMax Algorithm 🔴🔵&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/Connect4.png&#34; alt=&#34;Connect 4&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;travel-e-commerce-hahahugoshortcode4s8hbhb-travel-e-commerce&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/travel/&#34; title=&#34;Travel E-Commerce&#34;&gt;Travel E-Commerce 🧳✈&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;travel-e-commerce-hahahugoshortcode6s8hbhb-travel-e-commerce&#34;&gt;&lt;a href=&#34;http://localhost:1313/biradon/biradon.github.io/project_details/travel/&#34; title=&#34;Travel E-Commerce&#34;&gt;Travel E-Commerce 🧳✈&lt;/a&gt;&lt;/h3&gt;
 &lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 20px 0;&#34;&gt;
     &lt;img src=&#34;../images/travel.png&#34; alt=&#34;Travel E-Commerce&#34; style=&#34;width:75%; height:75%; border-radius: 25px;&#34; /&gt;
 &lt;/div&gt;</description>
