@@ -24,7 +24,7 @@ Right now, we're developing the backend and fine-tuning the [model](https://hugg
 
 ### Resource 📦
 
-[Live Demo](https://testliai.com/) 
+[Live Demo](https://app.testliai.com/) 
 
 
 --- 
